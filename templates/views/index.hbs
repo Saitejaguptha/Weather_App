@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+
+    <title>Weather Application</title>
+
+    <link rel="icon" href="/img/weather.png">
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script src="/js/app.js" defer></script>
+
+  </head>
+
+  <body>
+
+    <div class="main_content">
+
+      {{>header}}
+      
+      <p>This Page Helps us For Weather!!!</p>
+
+      <form>
+
+        <input placeholder="address" class="input_address">
+
+        <button> Search</button>
+
+      </form>
+
+      <p id="message-1"></p>
+      <p id="message-2"></p>
+
+    </div>
+
+    {{>footer}}
+
+  </body>
+
+</html>
